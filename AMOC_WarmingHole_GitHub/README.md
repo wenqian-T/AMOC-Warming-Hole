@@ -2,6 +2,13 @@
 
 分析 CMIP6 historical 与 SSP5-8.5 的海表温度、AMOC 和海表热通量，并与 ERSSTv5、HadISST 和 RAPID 观测比较。
 
+## 完整数据下载
+
+[我用夸克网盘给你分享了「AMOC_WarmingHole_Complete.zip」，点击链接或复制整段内容，打开「夸克APP」即可获取。
+/~df613bgXhC~:/
+链接：https://pan.quark.cn/s/df80f1fecc7d]
+解压后，将其中的 data 文件夹放在本仓库根目录，
+再按照上面的运行步骤执行。
 ## 内容
 
 - `notebooks/`：6 个最终 notebook 的可移植副本，已清除旧输出。
