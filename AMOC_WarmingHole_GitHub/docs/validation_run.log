@@ -1,0 +1,317 @@
+Running fig1_2
+ACCESS-CM2 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+ACCESS-ESM1-5 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+CESM2 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+CanESM5 ['r1i1p2f1', 'r2i1p2f1', 'r3i1p2f1', 'r4i1p2f1', 'r5i1p2f1']
+CanESM5-1 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+FGOALS-g3 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+ICON-ESM-LR ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+MIROC6 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+MPI-ESM1-2-HR ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+MPI-ESM1-2-LR ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+MRI-ESM2-0 ['r1i1p1f1', 'r2i1p1f1', 'r4i1p1f1', 'r5i1p1f1', 'r6i1p1f1']
+NorCPM1 ['r1i1p1f1', 'r2i1p1f1', 'r3i1p1f1', 'r4i1p1f1', 'r5i1p1f1']
+
+Processing ACCESS-CM2
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished ACCESS-CM2
+
+Processing ACCESS-ESM1-5
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished ACCESS-ESM1-5
+
+Processing CESM2
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished CESM2
+
+Processing CanESM5
+  r1i1p2f1
+  r2i1p2f1
+  r3i1p2f1
+  r4i1p2f1
+  r5i1p2f1
+ Finished CanESM5
+
+Processing CanESM5-1
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished CanESM5-1
+
+Processing FGOALS-g3
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished FGOALS-g3
+
+Processing ICON-ESM-LR
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished ICON-ESM-LR
+
+Processing MIROC6
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished MIROC6
+
+Processing MPI-ESM1-2-HR
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished MPI-ESM1-2-HR
+
+Processing MPI-ESM1-2-LR
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished MPI-ESM1-2-LR
+
+Processing MRI-ESM2-0
+  r1i1p1f1
+  r2i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+  r6i1p1f1
+ Finished MRI-ESM2-0
+
+Processing NorCPM1
+  r1i1p1f1
+  r2i1p1f1
+  r3i1p1f1
+  r4i1p1f1
+  r5i1p1f1
+ Finished NorCPM1
+Observation: ERSSTv5
+Observation: HadISST
+Figure 1 saved
+
+Completed!
+Output directory: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig01_SST_plot_data.nc
+<xarray.Dataset> Size: 321kB
+Dimensions:    (dataset: 14, lat: 28, lon: 51)
+Coordinates:
+  * dataset    (dataset) <U13 728B 'ERSSTv5' 'HadISST' ... 'NorCPM1'
+  * lat        (lat) float64 224B 20.0 22.0 24.0 26.0 ... 68.0 70.0 72.0 74.0
+  * lon        (lon) float64 408B -80.0 -78.0 -76.0 -74.0 ... 16.0 18.0 20.0
+Data variables:
+    sst_trend  (dataset, lat, lon) float64 160kB 0.02958 0.03358 ... 0.04637
+    pvalue     (dataset, lat, lon) float64 160kB 0.0288 0.02151 ... 0.03156
+Attributes:
+    period:                  1950–2014
+    trend_units:             degC/decade
+    test:                    Two-sided ordinary OLS
+    significance_threshold:  0.05
+    regrid:                  Nearest-neighbor to common 2-degree grid
+    spna_region:             45–60N, 60–10W
+Figure 1 saved
+
+Completed!
+Output directory: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+Running fig3_4_5
+Reading ACCESS-CM2
+Reading ACCESS-ESM1-5
+Reading CESM2
+Reading CanESM5
+Reading CanESM5-1
+Reading FGOALS-g3
+Reading ICON-ESM-LR
+Reading MIROC6
+Reading MPI-ESM1-2-HR
+Reading MPI-ESM1-2-LR
+Reading MRI-ESM2-0
+Reading NorCPM1
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig3_4_5.py:482: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Figure 5 saved.
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig3_4_5.py:666: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+RAPID figure saved.
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig3_4_5.py:815: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig3_4_5.py:1120: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig3_4_5.py:1316: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+RAPID AMOC trend (2005–2014): -2.904 Sv/decade
+RAPID trend p-value: 0.0605
+Running fig6
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig6.py:312: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Running fig7_8_9
+
+Processing ACCESS-CM2
+
+Processing ACCESS-ESM1-5
+
+Processing CESM2
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: CESM2/r1i1p1f1: fixed-mask coverage 96.23% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: CESM2/r2i1p1f1: fixed-mask coverage 96.23% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: CESM2/r3i1p1f1: fixed-mask coverage 96.23% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: CESM2/r4i1p1f1: fixed-mask coverage 96.23% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: CESM2/r5i1p1f1: fixed-mask coverage 96.23% of SPNA native area
+  warnings.warn(
+
+Processing CanESM5
+
+Processing CanESM5-1
+
+Processing ICON-ESM-LR
+
+Processing MIROC6
+
+Processing MPI-ESM1-2-HR
+
+Processing MPI-ESM1-2-LR
+
+Processing MRI-ESM2-0
+
+Processing FGOALS-g3
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: FGOALS-g3/r1i1p1f1: fixed-mask coverage 0.00% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: FGOALS-g3/r2i1p1f1: fixed-mask coverage 0.00% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: FGOALS-g3/r3i1p1f1: fixed-mask coverage 0.00% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: FGOALS-g3/r4i1p1f1: fixed-mask coverage 0.00% of SPNA native area
+  warnings.warn(
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:572: UserWarning: FGOALS-g3/r5i1p1f1: fixed-mask coverage 0.00% of SPNA native area
+  warnings.warn(
+
+Processing NorCPM1
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:891: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:992: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:1223: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:1441: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:1543: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig7_8_9.py:1717: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Figure 13 parameterization: 0.054 PW/Sv (Wang et al., 2023)
+        model  surface_mean  surface_sd  amoc_mean  mht_est_mean  mht_est_sd
+   ACCESS-CM2      0.015602    0.019186   0.078486      0.004238    0.017152
+ACCESS-ESM1-5      0.030647    0.015284   0.394166      0.021285    0.043061
+        CESM2      0.025043    0.012852  -0.353175     -0.019071    0.014098
+      CanESM5      0.026639    0.011678  -0.232962     -0.012580    0.021375
+    CanESM5-1      0.022065    0.017559   0.348961      0.018844    0.036852
+  ICON-ESM-LR      0.000586    0.020633   0.040944      0.002211    0.052980
+       MIROC6      0.027611    0.010521  -0.010317     -0.000557    0.040971
+MPI-ESM1-2-HR      0.041349    0.017922  -1.039443     -0.056130    0.042932
+MPI-ESM1-2-LR      0.035103    0.027368  -0.859537     -0.046415    0.037168
+   MRI-ESM2-0      0.028145    0.015897  -0.150503     -0.008127    0.054406
+    FGOALS-g3      0.039898    0.017364  -0.955165     -0.051579    0.073840
+      NorCPM1      0.047345    0.013319  -1.300780     -0.070242    0.034421
+
+Figure 13: Panel (a) directly integrated SPNA hfds; 
+Panel (b) 0.054 PW/Sv times 26.5N AMOC change; both bars +/- 1 SD
+Caution: MHT scale is NOT an SPNA regional heat-budget closure.
+
+Finished all three figures.
+Output directory: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+
+Figure 13: Panel (a) directly integrated SPNA hfds.
+Panel (b): 0.054 PW/Sv times 26.5N AMOC change.
+Both error bars represent between-member ±1 SD.
+Caution: This is NOT an SPNA regional heat-budget closure.
+Output directory: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+Running fig10_11
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:84: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:84: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:84: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:296: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:296: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:296: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:747: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig10_11.py:296: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.pdf
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SSP585_SST_trends.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SSP585_SST_trends.pdf
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig16_SSP585_SST_late_century_changes.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig16_SSP585_SST_late_century_changes.pdf
+Finished Figures 14–16. Output: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+Fig 15: OLS trends, 2015–2100; Fig 16: 2081–2100 minus 1995–2014.
+WHI is Global ocean SST minus SPNA SST.
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.pdf
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SSP585_SST_trends.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SSP585_SST_trends.pdf
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig16_SSP585_SST_late_century_changes.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig16_SSP585_SST_late_century_changes.pdf
+Finished Figures 14–16. Output: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures
+Fig 15: OLS trends, 2015–2100; Fig 16: 2081–2100 minus 1995–2014.
+WHI is Global ocean SST minus SPNA SST.
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SST_trends.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig15_SST_trends.pdf
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/figures/Fig14_SSP585_SST_trend_maps.pdf
+Running fig12_13
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig12_13.py:409: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/scripts/fig12_13.py:721: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/Fig20_AMOC_absolute_trends.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/Fig20_AMOC_absolute_trends.pdf
+
+2015–2100 AMOC trends (Sv/decade):
+        model latitude    period  trend_Sv_decade
+   ACCESS-CM2   26.5°N 2015–2100           -0.866
+   ACCESS-CM2     45°N 2015–2100           -0.907
+ACCESS-ESM1-5   26.5°N 2015–2100           -0.634
+ACCESS-ESM1-5     45°N 2015–2100           -0.987
+      CanESM5   26.5°N 2015–2100           -0.780
+      CanESM5     45°N 2015–2100           -0.839
+    CanESM5-1   26.5°N 2015–2100           -0.720
+    CanESM5-1     45°N 2015–2100           -0.746
+MPI-ESM1-2-LR   26.5°N 2015–2100           -0.542
+MPI-ESM1-2-LR     45°N 2015–2100           -0.606
+
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/Fig20_AMOC_trends_2015_2100.csv
+Pearson r = 0.3370
+p-value   = 0.5792
+n         = 5
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/Fig21_AMOC_WHI_relationship.png
+Saved: /Users/wency/Documents/Codex/2026-10-23/jian/outputs/AMOC_WarmingHole_Complete/results/Fig21_AMOC_WHI_relationship.pdf

@@ -1,0 +1,11 @@
+numpy
+pandas
+xarray
+scipy
+matplotlib
+cartopy
+netCDF4
+h5netcdf
+cftime
+jupyterlab
+ipykernel

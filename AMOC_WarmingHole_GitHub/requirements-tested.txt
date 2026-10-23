@@ -1,0 +1,10 @@
+# Direct scientific dependencies used in the packaging validation run
+numpy==2.3.5
+pandas==2.2.3
+xarray==2026.9.0
+scipy==1.18.1
+matplotlib==3.11.2
+cartopy==0.26.0
+netCDF4==1.7.5
+h5netcdf==1.8.1
+cftime==1.6.6.1
